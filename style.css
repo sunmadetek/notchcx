@@ -1,0 +1,99 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    background-color: #ffffff;
+    font-family: Poppins,sans-serif;
+    color: #474948 !important;
+}
+
+.text-global {
+    color: #474948 !important;
+}
+
+body.regular {
+    padding: 0 !important;
+}
+
+i {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.notch-blue {
+    color: #5C2D89 !important;
+}
+
+.notch-grey {
+    color: #E37625 !important;
+}
+
+.notch-blue-bg, .accordion-button:not(.collapsed) {
+    background-color: #5C2D89;
+}
+
+.notch-grey-bg {
+    background-color: #E37625;
+}
+
+.notch-blue-bg-outline {
+    border: 1px solid #5C2D89;
+    color: #fff;
+}
+
+.notch-grey-bg-outline {
+    border: 1px solid #E37625;
+    color: #fff;
+}
+
+.white-outline {
+    border: 1px solid #ffffff;
+}
+
+.mobile-text { font-size: 11px;}
+
+#essential, #prime, #standard, #services {
+    min-height: 698px;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.active {
+    color: #5C2D89 !important;
+    font-weight: bold !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 3rem;
+  color: #5C2D89;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 3rem;
+  color: #5C2D89;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #5C2D89 !important;
+}
+
+

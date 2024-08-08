@@ -1,0 +1,80 @@
+/* Extra small devices (phones, 540px and down) */
+@media only screen and (max-width: 540px) {
+    #desktop-header-buttons, #mobile-request-btn, .main-nav-menu {
+        display: none;
+    }
+
+    #essential, #standard, #services, #prime {
+        max-width: 299px;
+        margin: 20px auto 0;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 540px and up) */
+@media only screen and (min-width: 540px) {
+    #desktop-header-buttons, .main-nav-menu {
+        display: none;
+    }
+
+    #essential, #standard, #services, #prime {
+        max-width: 299px;
+        margin: 20px auto 0;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 720px and up) */
+@media only screen and (min-width: 720px) {
+    #desktop-header-buttons, .main-nav-menu {
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu-tab {
+        display: none;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    #little-spacing {
+        padding: 10px !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .menu-tab {
+        display: none;
+    }
+
+    .main-nav-menu {
+        display: inline;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+}
